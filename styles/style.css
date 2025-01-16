@@ -37,3 +37,11 @@ body {
     font-size: 15px;
     font-weight: 400;
 }
+
+ .sub-title{
+    color:#FFAD5A;
+}
+
+.hide{
+    display: none
+}
