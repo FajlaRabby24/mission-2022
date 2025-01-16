@@ -15,14 +15,7 @@
     border-radius: 8px;
 }
 
-.mission>h1 {
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 70px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-bottom: 32px;
-}
+
 
 .mission-top-card-container {
     display: grid;

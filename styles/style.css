@@ -38,6 +38,15 @@ body {
     font-weight: 400;
 }
 
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
  .sub-title{
     color:#FFAD5A;
 }

@@ -1,0 +1,76 @@
+.app{
+    margin-bottom: 100px;
+}
+
+
+.app-row {
+    padding:20px 0 0px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.app-row .app-col img {
+    width: 70%;
+    height: auto;
+}
+
+.app-row .app-col:first-child{
+    text-align: center;
+    background-image: url('../images/shapes/shape-3.png'),url('../images/shapes/shape-3.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom left;
+    background-size: 35%, 25%;
+}
+
+.app-col h2 {
+    font-size: 48px;
+    font-weight: 700;
+    max-width: 379px;
+}
+
+.app-col > .des{
+    margin: 16px 0;
+}
+
+
+/* media query */
+@media screen and (max-width: 576px) {
+    .app-row {
+        flex-direction: column;
+    }
+    .app > .title{
+        font-size: 35px;
+    }
+    .app-col h2{
+        font-size: 30px;
+        margin-top: 33px;
+    }
+    .app-row .app-col img {
+        width: 50%;
+        height: auto;
+    }
+    .app-row .app-col:first-child{
+        
+        text-align: center;
+        background-position: 30% 0%, 30% 100%;
+        background-size: 30%, 20%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .app > .title{
+        font-size: 40px;
+    }
+    .app-col h2{
+        font-size: 32px;
+    }
+    .app-row .app-col img {
+        width: 60%;
+        height: auto;
+    }
+    .app-row .app-col:first-child{
+        text-align: center;
+        background-position: 20% 0%, 20% 100%;
+        background-size: 30%, 20%;
+    }
+}
